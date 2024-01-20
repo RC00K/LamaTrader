@@ -1,0 +1,2 @@
+# LamaTrader
+Trading with lamas
