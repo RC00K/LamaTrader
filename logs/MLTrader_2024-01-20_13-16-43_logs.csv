@@ -1,0 +1,756 @@
+2024-01-20 13:16:44,017: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:44,019: root: INFO: MLTrader : Executing the initialize lifecycle method
+2024-01-20 13:16:44,058: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:44,264: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:44,279: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:44,536: root: INFO: Current backtesting datetime 2023-12-15 08:30:00-05:00
+2024-01-20 13:16:44,536: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2024-01-20 13:16:44,536: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:44,537: root: INFO: Current backtesting datetime 2023-12-15 09:30:00-05:00
+2024-01-20 13:16:44,537: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2024-01-20 13:16:44,537: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-01-20 13:16:44[0m
+2024-01-20 13:16:44,537: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:44,548: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:44,655: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:44,667: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:44,774: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:44,787: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:44,901: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:44,915: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:45,019: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:45,033: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:45,168: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:45,180: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:45,294: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:45,306: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:45,416: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:45,430: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:45,450: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,451: root: INFO: [32mNew market order of | 106.0 SPY buy | at price $563.3879882812499 of class bracket with status unprocessed was submitted.[0m
+2024-01-20 13:16:45,454: root: INFO: [34mMLTrader : Trading iteration ended at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,454: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,454: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,455: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,455: root: INFO: market order of | 106.0 SPY buy | at price $563.3879882812499 of class bracket with status new was sent to broker backtesting
+2024-01-20 13:16:45,455: root: INFO: market order of | 106.0 SPY buy | at price $563.3879882812499 of class bracket with status new was sent to broker backtesting
+2024-01-20 13:16:45,456: root: INFO: [32mFilled Transaction: buy 106.0 of SPY at 469.48999023 USD per share[0m
+2024-01-20 13:16:45,456: root: INFO: market order of | 106.0 SPY buy | at price $563.3879882812499 of class bracket with status new was filled
+2024-01-20 13:16:45,459: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-01-20 13:16:45,460: root: INFO: Current backtesting datetime 2023-12-15 16:00:00-05:00
+2024-01-20 13:16:45,460: root: INFO: Current backtesting datetime 2023-12-16 09:30:00-05:00
+2024-01-20 13:16:45,462: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2024-01-20 13:16:45,462: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,462: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,462: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,463: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,463: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,463: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,464: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,464: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,465: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,465: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,465: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,465: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,466: root: INFO: Current backtesting datetime 2023-12-16 09:29:00-05:00
+2024-01-20 13:16:45,466: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,466: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,467: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,467: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,467: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,468: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,468: root: INFO: Current backtesting datetime 2023-12-16 09:29:00-05:00
+2024-01-20 13:16:45,468: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2024-01-20 13:16:45,468: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,468: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,469: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,469: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,469: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,470: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,470: root: INFO: Current backtesting datetime 2023-12-18 08:30:00-05:00
+2024-01-20 13:16:45,470: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,471: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,471: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2024-01-20 13:16:45,472: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,472: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,472: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,472: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,472: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,473: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,473: root: INFO: Current backtesting datetime 2023-12-18 09:30:00-05:00
+2024-01-20 13:16:45,473: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2024-01-20 13:16:45,475: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,475: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,475: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,476: root: INFO: [34mMLTrader : Trading iteration ended at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,476: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,476: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,476: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,476: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,476: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,477: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,477: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-01-20 13:16:45,478: root: INFO: Current backtesting datetime 2023-12-18 16:00:00-05:00
+2024-01-20 13:16:45,478: root: INFO: Current backtesting datetime 2023-12-19 09:30:00-05:00
+2024-01-20 13:16:45,479: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,479: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,479: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,480: root: INFO: [34mMLTrader : Trading iteration ended at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,480: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,480: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,480: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,480: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,480: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,481: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,481: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-01-20 13:16:45,482: root: INFO: Current backtesting datetime 2023-12-19 16:00:00-05:00
+2024-01-20 13:16:45,482: root: INFO: Current backtesting datetime 2023-12-20 09:30:00-05:00
+2024-01-20 13:16:45,482: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,482: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,483: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,483: root: INFO: [34mMLTrader : Trading iteration ended at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,483: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,483: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,484: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,484: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,484: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,484: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,485: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-01-20 13:16:45,485: root: INFO: Current backtesting datetime 2023-12-20 16:00:00-05:00
+2024-01-20 13:16:45,485: root: INFO: Current backtesting datetime 2023-12-21 09:30:00-05:00
+2024-01-20 13:16:45,486: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,486: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,487: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,487: root: INFO: [34mMLTrader : Trading iteration ended at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,487: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,487: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,487: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,487: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,487: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,488: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,488: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-01-20 13:16:45,489: root: INFO: Current backtesting datetime 2023-12-21 16:00:00-05:00
+2024-01-20 13:16:45,489: root: INFO: Current backtesting datetime 2023-12-22 09:30:00-05:00
+2024-01-20 13:16:45,490: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,490: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,491: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,491: root: INFO: [34mMLTrader : Trading iteration ended at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,491: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,491: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,491: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,491: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,491: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,492: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,492: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-01-20 13:16:45,493: root: INFO: Current backtesting datetime 2023-12-22 16:00:00-05:00
+2024-01-20 13:16:45,493: root: INFO: Current backtesting datetime 2023-12-23 09:30:00-05:00
+2024-01-20 13:16:45,493: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2024-01-20 13:16:45,493: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,493: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,494: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,494: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,494: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,495: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,496: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,496: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,496: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,496: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,496: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,497: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,497: root: INFO: Current backtesting datetime 2023-12-23 09:29:00-05:00
+2024-01-20 13:16:45,497: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,497: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,498: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,498: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,498: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,498: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,499: root: INFO: Current backtesting datetime 2023-12-23 09:29:00-05:00
+2024-01-20 13:16:45,499: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2024-01-20 13:16:45,499: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,499: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,499: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,499: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,499: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,499: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,500: root: INFO: Current backtesting datetime 2023-12-26 08:30:00-05:00
+2024-01-20 13:16:45,500: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,501: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,501: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2024-01-20 13:16:45,501: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,501: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,501: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,502: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,502: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,502: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,502: root: INFO: Current backtesting datetime 2023-12-26 09:30:00-05:00
+2024-01-20 13:16:45,502: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2024-01-20 13:16:45,503: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,503: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,504: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,504: root: INFO: [34mMLTrader : Trading iteration ended at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,504: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,504: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,504: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,504: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,504: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,505: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,505: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-01-20 13:16:45,505: root: INFO: Current backtesting datetime 2023-12-26 16:00:00-05:00
+2024-01-20 13:16:45,505: root: INFO: Current backtesting datetime 2023-12-27 09:30:00-05:00
+2024-01-20 13:16:45,506: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,506: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,507: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,507: root: INFO: [34mMLTrader : Trading iteration ended at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,507: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,507: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,507: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,507: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,507: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,507: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,508: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-01-20 13:16:45,508: root: INFO: Current backtesting datetime 2023-12-27 16:00:00-05:00
+2024-01-20 13:16:45,508: root: INFO: Current backtesting datetime 2023-12-28 09:30:00-05:00
+2024-01-20 13:16:45,509: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,509: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,509: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,509: root: INFO: [34mMLTrader : Trading iteration ended at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,509: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,509: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,510: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,510: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,510: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,510: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,510: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-01-20 13:16:45,511: root: INFO: Current backtesting datetime 2023-12-28 16:00:00-05:00
+2024-01-20 13:16:45,511: root: INFO: Current backtesting datetime 2023-12-29 09:30:00-05:00
+2024-01-20 13:16:45,511: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,511: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,512: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,512: root: INFO: [34mMLTrader : Trading iteration ended at 2024-01-20 13:16:45[0m
+2024-01-20 13:16:45,512: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,512: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,512: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,512: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,512: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,513: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,513: root: INFO: MLTrader : [34mSleeping for 86400 seconds[0m
+2024-01-20 13:16:45,513: root: INFO: Current backtesting datetime 2023-12-29 16:00:00-05:00
+2024-01-20 13:16:45,513: root: INFO: Current backtesting datetime 2023-12-30 09:30:00-05:00
+2024-01-20 13:16:45,514: root: INFO: [34mMLTrader : The market is not currently open, skipping this trading iteration[0m
+2024-01-20 13:16:45,514: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,514: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,514: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,514: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,514: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,515: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,515: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,515: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,515: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,515: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,515: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,516: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,516: root: INFO: Current backtesting datetime 2023-12-30 09:29:00-05:00
+2024-01-20 13:16:45,516: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,516: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,516: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,516: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,516: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,517: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,517: root: INFO: Current backtesting datetime 2023-12-30 09:29:00-05:00
+2024-01-20 13:16:45,517: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2024-01-20 13:16:45,517: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,517: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,517: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,517: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,517: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,518: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,518: root: INFO: Current backtesting datetime 2024-01-02 08:30:00-05:00
+2024-01-20 13:16:45,518: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,518: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,519: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2024-01-20 13:16:45,519: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,519: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,519: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,519: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,519: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,519: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,520: root: INFO: Current backtesting datetime 2024-01-02 09:30:00-05:00
+2024-01-20 13:16:45,520: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2024-01-20 13:16:45,520: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,520: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,520: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,520: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,520: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,520: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,521: root: INFO: Current backtesting datetime 2024-01-02 15:59:00-05:00
+2024-01-20 13:16:45,521: root: INFO: MLTrader : Executing the before_market_closes lifecycle method
+2024-01-20 13:16:45,521: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,521: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,521: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,521: root: INFO: Getting historical prices for SPY, 1 bars, 
+2024-01-20 13:16:45,521: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,522: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:16:45,522: root: INFO: Current backtesting datetime 2024-01-02 16:00:00-05:00
+2024-01-20 13:16:45,522: root: INFO: MLTrader : Executing the after_market_closes lifecycle method
+2024-01-20 13:16:45,522: root: INFO: MLTrader : Executing the on_strategy_end lifecycle method
+2024-01-20 13:16:45,540: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:45,552: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:45,657: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:45,668: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:45,777: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:45,792: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:45,861: root: INFO: Backtesting finished
+2024-01-20 13:16:45,911: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:45,922: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:46,033: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:46,046: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:46,155: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:46,169: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:46,281: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:46,295: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:46,417: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:46,436: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:46,550: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:46,564: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:48,682: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 655, in __await_impl_timeout__
+    return await self.__await_impl__()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:16:48,704: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:16:50,759: backtest_stats: INFO: Backtest took 0:00:06.742154 for a speed of 0.000

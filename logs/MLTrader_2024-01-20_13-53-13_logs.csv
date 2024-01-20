@@ -1,0 +1,123 @@
+2024-01-20 13:53:13,233: root: INFO: MLTrader : Executing the initialize lifecycle method
+2024-01-20 13:53:13,409: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 663, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:53:13,464: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:53:13,772: root: INFO: Current backtesting datetime 2023-12-15 08:30:00-05:00
+2024-01-20 13:53:13,772: root: INFO: MLTrader : Executing the before_market_opens lifecycle method
+2024-01-20 13:53:13,773: root: INFO: Current backtesting datetime 2023-12-15 09:30:00-05:00
+2024-01-20 13:53:13,773: root: INFO: MLTrader : Executing the before_starting_trading lifecycle method
+2024-01-20 13:53:13,772: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 663, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:53:13,774: root: INFO: [34mMLTrader : Executing the on_trading_iteration lifecycle method at 2024-01-20 13:53:13[0m
+2024-01-20 13:53:13,774: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:53:13,776: root: WARNING: quote is not implemented for YahooData, but USD was passed as the quote
+2024-01-20 13:53:13,784: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:53:13,901: alpaca.trading.stream: ERROR: error during websocket communication: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 170, in _run_forever
+    await self._start_ws()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 130, in _start_ws
+    await self._connect()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/alpaca/trading/stream.py", line 61, in _connect
+    self._ws = await websockets.connect(self._endpoint, **self._websocket_params)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 659, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/websockets/legacy/client.py", line 663, in __await_impl__
+    _transport, _protocol = await self._create_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1089, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1119, in _create_connection_transport
+    await waiter
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 534, in data_received
+    ssldata, appdata = self._sslpipe.feed_ssldata(data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/sslproto.py", line 188, in feed_ssldata
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 975, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)
+2024-01-20 13:53:13,913: alpaca.trading.stream: INFO: starting trading websocket connection
+2024-01-20 13:53:13,963: root: ERROR: PreTrainedTokenizerFast._batch_encode_plus() got an unexpected keyword argument 'return_tensor'
+2024-01-20 13:53:13,965: root: ERROR: Traceback (most recent call last):
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 831, in run
+    self._run_trading_session()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 782, in _run_trading_session
+    self._on_trading_iteration()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 274, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 298, in func_output
+    result = func_input(self, *args, **kwargs)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 87, in func_output
+    return func_input(self, *args, **kwargs)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/lumibot/strategies/strategy_executor.py", line 378, in _on_trading_iteration
+    on_trading_iteration()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/lumibot/tools/decorators.py", line 62, in func_output
+    frame, result = call_function_get_frame(func_input, *args, **kwargs)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/lumibot/tools/decorators.py", line 30, in call_function_get_frame
+    result = func(*args, **kwargs)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/tradinglama.py", line 53, in on_trading_iteration
+    probability, sentiment = self.get_sentiment()
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/tradinglama.py", line 45, in get_sentiment
+    probability, sentiment = estimate_sentiment(news)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/finbert_utils.py", line 13, in estimate_sentiment
+    tokens = tokenizer(news, return_tensor="pt", padding=True).to(device)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2802, in __call__
+    encodings = self._call_one(text=text, text_pair=text_pair, **all_kwargs)
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2888, in _call_one
+    return self.batch_encode_plus(
+  File "/Users/rydercook/Documents/GitHub/LamaTrader/venv/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 3079, in batch_encode_plus
+    return self._batch_encode_plus(
+TypeError: PreTrainedTokenizerFast._batch_encode_plus() got an unexpected keyword argument 'return_tensor'
+
+2024-01-20 13:53:13,965: root: INFO: MLTrader : Executing the on_bot_crash event method
+2024-01-20 13:53:13,970: root: INFO: Backtesting finished
+2024-01-20 13:53:13,971: root: WARNING: Cannot plot returns because the strategy returns are missing
+2024-01-20 13:53:14,024: root: WARNING: Cannot create a tearsheet because the strategy returns are missing
+2024-01-20 13:53:14,024: backtest_stats: INFO: Backtest took 0:00:00.792716 for a speed of 0.000
