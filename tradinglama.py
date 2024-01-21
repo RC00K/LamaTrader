@@ -6,8 +6,8 @@ from alpaca_trade_api import REST
 from timedelta import Timedelta
 from finbert_utils import estimate_sentiment
 
-API_KEY = ""
-API_SECRET = ""
+API_KEY = "PKHM6NJP83FJ44QATZYY"
+API_SECRET = "uXOnPv9qBzqrI12PWlLD6NsefKTkP4wP45o5q44K"
 BASE_URL = "https://paper-api.alpaca.markets/"
 
 ALPACA_CREDS = {
@@ -69,25 +69,16 @@ class MLTrader(Strategy):
                 order = self.create_order(
                     self.symbol,
                     quantity,
-                )
-
-
-            if self.last_trade == None:
-                probability, sentiment = self.get_sentiment()
-                print(probability, sentiment)
-                order = self.create_order(
-                    self.symbol,
-                    quantity,
-                    "buy",
+                    "sell",
                     type="bracket",
-                    take_profit_price=last_price*1.20,
-                    stop_loss_price=last_price*.95
+                    take_profit_price=last_price*.8,
+                    stop_loss_price=last_price*1.05
                 )
                 self.submit_order(order)
-                self.last_trade = "buy"
+                self.last_trade = "sell"
 
 
-start_date = datetime(2023, 12, 15)
+start_date = datetime(2020, 1, 5)
 end_date = datetime(2023, 12, 31)
 broker = Alpaca(ALPACA_CREDS)
 strategy = MLTrader(name='mlstrat', broker=broker,

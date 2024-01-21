@@ -10,7 +10,7 @@ labels = ["positive", "negative", "neutral"]
 
 def estimate_sentiment(news):
     if news:
-        tokens = tokenizer(news, return_tensor="pt", padding=True).to(device)
+        tokens = tokenizer(news, return_tensors="pt", padding=True).to(device)
 
         result = model(tokens["input_ids"], attention_mask=tokens["attention_mask"])[
             "logits"
